@@ -1,0 +1,43 @@
+.icon
+{
+    position: relative;
+    bottom: 0;
+    width: 3vw;
+    height: 3vw;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 30vh;
+    margin-left: 48.5vw;
+
+    background-size: contain;
+}
+.icon {
+    text-align: center;
+}
+
+.arrow-container {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+p {
+    text-align: center;
+    margin-top: 0;
+}
