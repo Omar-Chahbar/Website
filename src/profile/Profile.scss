@@ -1,0 +1,74 @@
+.profile {
+    background-color: #1F2833;
+    padding-bottom: 0;
+}
+
+.profile-container {
+    margin-left: 2vw;
+    width: 50vw;
+    margin-right: 0;
+}
+
+.row {
+    width: 50vw;
+    margin-bottom: 0;
+}
+
+.info {
+    padding-bottom: 5vh;
+    font-size: 1.5vw;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+}
+
+li {
+    font-size: 1.5vw;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+    background-color: transparent !important;
+}
+
+h3 {
+    padding-bottom: 2vh;
+    font-size: 1.5vw;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+}
+
+.frame1 {
+    position: absolute;
+    margin-top: 10vh;
+    right: 12.5vw;
+    height: 30vw;
+    width: 30vw;
+    border: antiquewhite 3px solid;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.frame2 {
+    position: absolute;
+    margin-top: calc(10vh + 20px);
+    right: calc(12.5vw - 20px);
+    height: 30vw;
+    width: 30vw;
+    border: antiquewhite 3px solid;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.picture {
+    position: absolute;
+    margin-top: calc(10vh + 20px);
+    right: 12.5vw;
+    height: calc(30vw - 20px);
+    width: calc(30vw - 20px);
+    border: antiquewhite 3px solid;
+    background-image: url("../logo192.png");
+    border-radius: 3px;
+}
+
+.title {
+    font-size: 4vw;
+    padding-bottom: 5vh;
+}

@@ -1,5 +1,5 @@
-.jumbotron {
-    background-color: #282c34;
+.landingPage {
+    background-color: rgb(10, 25, 47);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,12 +8,4 @@
     font-size: calc(10px + 2vmin);
     color: white;
     position: relative;
-}
-
-h1 {
-    font-size: 6vw;
-}
-
-h2 {
-    font-size: 3vw;
 }
