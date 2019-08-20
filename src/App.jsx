@@ -3,6 +3,7 @@ import './App.scss';
 import LandingPage from "./landingPage/LandingPage";
 import Profile from "./profile/Profile";
 import Experience from "./Experience/Experience";
+import Project from "./projects/Project";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <LandingPage/>
             <Profile/>
             <Experience/>
+            <Project/>
         </div>
     );
 }
