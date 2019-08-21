@@ -1,19 +1,21 @@
 import React from 'react';
+import Fade from 'react-reveal/Fade';
+import PropTypes from 'prop-types';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
-import PropTypes from 'prop-types';
-import './FeaturedProject.scss';
-import Fade from 'react-reveal/Fade';
+import './FadeFeatureProject.scss';
 
-const FeaturedProject = ({project, count }) => (
+const FadeFeaturedProject = ({project}) => (
     <div className="project-container">
-        <Fade left duration={1000}>
+        <Fade left>
             <div className="project">
                 <div className="project-content">
                     <div className="project-label">{project.label}</div>
                     <h4 className="project-title">{project.title}</h4>
                     <div className="project-details">
-                        <p>{project.details}</p>
+                        <Fade left duration={1750}>
+                            <p>{project.details}</p>
+                        </Fade>
                         <ul>
                             {project.languages.map((lang => <li>{lang}</li>))}
                         </ul>
@@ -28,7 +30,7 @@ const FeaturedProject = ({project, count }) => (
     </div>
 );
 
-FeaturedProject.propTypes = {
+FadeFeaturedProject.propTypes = {
     project: PropTypes.shape({
         label: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
@@ -36,6 +38,7 @@ FeaturedProject.propTypes = {
         languages: PropTypes.string.isRequired,
         link: PropTypes.string.isRequired,
     }),
+    count: PropTypes.number.isRequired,
 };
 
-export default FeaturedProject;
+export default FadeFeaturedProject;
