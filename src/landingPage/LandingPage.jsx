@@ -12,7 +12,7 @@ const LandingPage = () => (
                     <h1>Hi, I'm Omar</h1>
                 </Fade>
                 <Fade left delay={500}>
-                    <h2>I'm a Full Stack Software Developer.</h2>
+                    <h2>I'm a Full Stack Software Engineer.</h2>
                 </Fade>
             </center>
         </div>

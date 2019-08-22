@@ -1,0 +1,45 @@
+.form-box {
+  padding-bottom: 5vh;
+  width: 40vw;
+  display: inline-block;
+}
+
+.field {
+  border-radius: 0;
+  margin-bottom: .5vh;
+  background-color: #1E242C;
+  border: none;
+  color: white;
+  width: 40vw;
+}
+
+.row {
+  margin: 0;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: #1E242C;
+  border: none;
+  box-shadow: none;
+}
+
+.btn-submit {
+  float: right;
+  font-size: 12pt;
+  padding: 10px 30px;
+  color: #fff;
+  background: transparent;
+  outline: 0;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  display: inline-block;
+  border-radius: 0;
+  cursor: pointer;
+  margin: 5px -15px 0 0;
+  width:100%
+}
+
+h1 {
+  color: white;
+}

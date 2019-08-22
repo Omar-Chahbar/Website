@@ -2,8 +2,9 @@ import React from 'react';
 import './App.scss';
 import LandingPage from "./landingPage/LandingPage";
 import Profile from "./profile/Profile";
-import Experience from "./Experience/Experience";
+import Experience from "./experience/Experience";
 import Project from "./projects/Project";
+import Contact from "./contact/Contact";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Profile/>
             <Experience/>
             <Project/>
+            <Contact />
         </div>
     );
 }
