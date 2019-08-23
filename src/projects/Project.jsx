@@ -24,6 +24,14 @@ const projects = [
         link: "https://github.com/Omar-Chahbar/cron-calculator",
         className: "project-img sudoku",
     },
+    {
+        label: "Featured Project",
+        title: "Sudoku Solver",
+        details: "A project I made that takes in an incomplete Sudoku puzzle as input and returns the solved puzzle. The solving algorithm uses Breadth first search to limit options and then depth first search to solve the puzzle",
+        languages: ["Python", "Spring"],
+        link: "https://github.com/Omar-Chahbar/SudokuSolver",
+        className: "project-img sudoku",
+    },
 
 ];
 
