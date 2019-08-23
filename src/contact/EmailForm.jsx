@@ -40,6 +40,13 @@ class EmailForm extends React.Component {
         });
     }
 
+
+    closeSuccess() {
+        this.setState({
+            formEmailSent: false,
+        })
+    }
+
     sendFeedback(email, name, message) {
         emailjs.send(
             "default_service",
@@ -62,13 +69,19 @@ class EmailForm extends React.Component {
     }
 
     render() {
+        const disableError = () => this.setState({error:false});
+        const disableSuccess = () => this.setState({formEmailSent:false});
         return (
+            <div>
+                <AlertMessage isShown={this.state.error} variant="warning" close={disableError}
+                              message="Oops, sorry! Looks like there's a problem with my email server, If you want to get in contact you can email me directly at chahbar.omar@gmail.com"/>
+                <AlertMessage isShown={this.state.formEmailSent} variant="success" close={disableSuccess} message="Message Sent!"/>
                 <Form className="form-box" onSubmit={this.onSubmit}>
                     <Form.Group as={Row}>
                         <Col sm="10">
                             <Form.Control
                                 name="name"
-                                placeHolder="Name"
+                                placeholder="Name"
                                 id="name-control"
                                 type="text"
                                 onChange={this.handleInputChange}
@@ -78,7 +91,7 @@ class EmailForm extends React.Component {
                         <Col sm="10">
                             <Form.Control
                                 name="email"
-                                placeHolder="Email"
+                                placeholder="Email"
                                 id="email-control"
                                 type="text"
                                 onChange={this.handleInputChange}
@@ -88,22 +101,20 @@ class EmailForm extends React.Component {
                     </Form.Group>
                     <Form.Group controlId="message">
                         <Col sm="10">
-                        <Form.Control name="message"
-                                      as="textarea"
-                                      placeHolder="Enter Message"
-                                      rows="3"
-                                      onChange={this.handleInputChange}
-                                      className="field"
-                        />
+                            <Form.Control name="message"
+                                          as="textarea"
+                                          placeholder="Enter Message"
+                                          rows="3"
+                                          onChange={this.handleInputChange}
+                                          className="field"
+                            />
                         </Col>
                     </Form.Group>
                     <Button className="btn-submit" variant="dark" type="submit">
-                        Submit
+                        SUBMIT
                     </Button>
-                    <AlertMessage isShown={this.state.error} variant="warning"
-                                  message="Oops, sorry! Looks like there's a problem with my email server, If you want to get in contact you can email me directly at chahbar.omar@gmail.com"/>
-                    <AlertMessage isShown={this.state.formEmailSent} variant="success" message="Message Sent!"/>
                 </Form>
+            </div>
         );
     }
 }

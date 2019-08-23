@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Alert from 'react-bootstrap/Alert';
 
-const AlertMessage = ({ isShown, variant, message }) => (
+const AlertMessage = ({ isShown, variant, message, close }) => (
     isShown
     && (
-        <Alert variant={variant} dismissible>
+        <Alert variant={variant} onClose={close} dismissible>
             {message}
         </Alert>
     )
