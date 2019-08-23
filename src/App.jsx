@@ -5,15 +5,17 @@ import Profile from "./profile/Profile";
 import Experience from "./experience/Experience";
 import Project from "./projects/Project";
 import Contact from "./contact/Contact";
+import Footer from "./footer/Footer";
 
 function App() {
     return (
         <div className="App">
             <LandingPage/>
             <Profile/>
-            <Experience/>
+            {/*<Experience/>*/}
             <Project/>
             <Contact />
+            <Footer />
         </div>
     );
 }

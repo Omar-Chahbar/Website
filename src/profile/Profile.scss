@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
 .profile {
     background-color: rgb(10, 25, 47);
     padding-bottom: 0;
+    text-align: center;
 }
 
 .profile-container {
     margin-left: 2vw;
     width: 50vw;
     margin-right: 0;
+    text-align: left;
 }
 
 .row {
@@ -18,13 +22,16 @@
     padding-bottom: 5vh;
     font-size: 1.5vw;
     font-weight: normal;
-    font-family: "Open Sans", sans-serif;
+    font-family: "RaleWay", sans-serif;
 }
-
+.list-group-item {
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
 li {
     font-size: 1.5vw;
     font-weight: normal;
-    font-family: "Open Sans", sans-serif;
+    font-family: "RaleWay", sans-serif;
     background-color: transparent !important;
 }
 
@@ -32,15 +39,15 @@ h3 {
     padding-bottom: 2vh;
     font-size: 1.5vw;
     font-weight: normal;
-    font-family: "Open Sans", sans-serif;
+    font-family: "RaleWay", sans-serif;
 }
 
 .frame1 {
     position: absolute;
-    margin-top: 10vh;
+    margin-top: 20vh;
     right: 12.5vw;
-    height: 30vw;
-    width: 30vw;
+    height: 23vw;
+    width: 23vw;
     border: antiquewhite 3px solid;
     background-color: transparent;
     border-radius: 3px;
@@ -48,27 +55,35 @@ h3 {
 
 .frame2 {
     position: absolute;
-    margin-top: calc(10vh + 20px);
+    margin-top: calc(20vh + 20px);
     right: calc(12.5vw - 20px);
-    height: 30vw;
-    width: 30vw;
+    height: 23vw;
+    width: 23vw;
     border: antiquewhite 3px solid;
     background-color: transparent;
     border-radius: 3px;
 }
 
+.underline {
+    border-bottom: antiquewhite 3px solid;
+    width: 3.5em;
+    margin: -5vh auto auto;
+    margin-bottom: 8vh;
+}
+
 .picture {
     position: absolute;
-    margin-top: calc(10vh + 20px);
+    margin-top: calc(20vh + 20px);
     right: 12.5vw;
-    height: calc(30vw - 20px);
-    width: calc(30vw - 20px);
+    height: calc(23vw - 20px);
+    width: calc(23vw - 20px);
     border: antiquewhite 3px solid;
     background-image: url("../logo192.png");
     border-radius: 3px;
 }
 
 .title {
-    font-size: 4vw;
+    font-size: 3vw;
     padding-bottom: 5vh;
+    font-family: "RaleWay", sans-serif;
 }

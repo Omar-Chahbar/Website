@@ -9,7 +9,6 @@ const Arrows = () => (
         <div className="icon bounce">
             <FontAwesomeIcon icon={faChevronDown}/>
         </div>
-        <p>Come on in</p>
         <AnchorLink href="#profile" className="clickable-area link-unstyled"/>
     </div>
 );

@@ -17,7 +17,7 @@ const FadeFeaturedProject = ({project}) => (
                             <p>{project.details}</p>
                         </Fade>
                         <ul>
-                            {project.languages.map((lang => <li>{lang}</li>))}
+                            {project.languages.map((lang => <li className="languages">{lang}</li>))}
                         </ul>
                         <a href={project.link}><FontAwesomeIcon icon={faGithub}/></a>
                     </div>
