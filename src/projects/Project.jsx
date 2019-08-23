@@ -23,6 +23,14 @@ const projects = [
         link: "https://github.com/Omar-Chahbar/SudokuSolver",
         className: "project-img sudoku",
     },
+    {
+        label: "Featured Project",
+        title: "Cron Tab Calculator",
+        details: "An API that accepts information on how often you want a process to run and gives you a syntactically correct Crontab to run that task",
+        languages: ["Java", "Spring", "Jackson"],
+        link: "https://github.com/Omar-Chahbar/cron-calculator",
+        className: "project-img sudoku",
+    },
 ];
 
 export default Project;
