@@ -7,7 +7,7 @@
 }
 
 .profile-container {
-    margin-left: 2vw;
+    margin-left: 6.5vw;
     width: 50vw;
     margin-right: 0;
     text-align: left;
@@ -48,7 +48,7 @@ h3 {
     right: 12.5vw;
     height: 23vw;
     width: 23vw;
-    border: antiquewhite 3px solid;
+    border: antiquewhite 1px solid;
     background-color: transparent;
     border-radius: 3px;
 }
@@ -59,7 +59,7 @@ h3 {
     right: calc(12.5vw - 20px);
     height: 23vw;
     width: 23vw;
-    border: antiquewhite 3px solid;
+    border: antiquewhite 1px solid;
     background-color: transparent;
     border-radius: 3px;
 }
@@ -77,9 +77,9 @@ h3 {
     right: 12.5vw;
     height: calc(23vw - 20px);
     width: calc(23vw - 20px);
-    border: antiquewhite 3px solid;
-    background-image: url("../logo192.png");
-    border-radius: 3px;
+    //border: antiquewhite 3px solid;
+    background-color: #04C2C9;
+    //border-radius: 3px;
 }
 
 .title {

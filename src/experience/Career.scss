@@ -1,9 +1,11 @@
-.location,a {
-  font-size: 1.3vw;
-  font-weight: normal;
-  font-family: "Share Tech Mono", sans-serif;
-}
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,400italic,700,700italic|Roboto+Slab:400,100,300,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
 .svg-inline--fa.fa-w-12 {
   width: 1em;
+}
+
+.svg-inline--fa.fa-w-10 {
+  width: .5em;
+  height: .75em;
 }

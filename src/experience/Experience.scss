@@ -21,8 +21,13 @@ li {
   text-align: left;
 }
 
+.link {
+  margin-left: .4em;
+}
+
 .exp-title {
   text-align: center;
+  font-family: "RaleWay", sans-serif;
 }
 
 .row {
@@ -44,7 +49,6 @@ li {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  overflow:hidden;
   position: relative;
 }
 
@@ -55,4 +59,142 @@ a {
 
 a:hover {
   color: black;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,400italic,700,700italic|Roboto+Slab:400,100,300,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+.svg-inline--fa.fa-w-12 {
+  width: 1em;
+}
+
+.svg-inline--fa.fa-w-10 {
+  width: .5em;
+  height: .75em;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+}
+
+.CV-page {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 2em;
+  color: white;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+
+@media all and (max-width: 500px) {
+  .CV-page {
+    padding: 0 1em;
+  }
+}
+
+.CV-secondaryHeading {
+  position: relative;
+  margin: 2em 0 0;
+  text-transform: uppercase;
+}
+
+.CV-grid {
+  display: table;
+}
+
+.CV-grid-column {
+  display: table-cell;
+}
+
+.CV-timeline {
+  position: relative;
+  margin: 0 0 0 0.5em;
+  padding-left: 1.5em;
+  border-left: solid 1px aqua;
+}
+
+.CV-timeline:first-of-type {
+  margin-top: 1em;
+}
+
+.CV-timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -0.5em;
+  display: block;
+  width: 1em;
+  height: 1em;
+  border: solid 4px #0a192f;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.CV-timeline-heading {
+  margin: 0;
+  padding-bottom: 0.5em;
+  line-height: 1em;
+  font-weight: normal;
+  -webkit-transform: translateY(-0.1em);
+  -ms-transform: translateY(-0.1em);
+  transform: translateY(-0.1em);
+}
+
+.CV-timeline-heading-title {
+  line-height: 1;
+  color: #00aef0;
+  font-style: italic;
+  text-transform: uppercase;
+  font-family: RaleWay, sans-serif;
+}
+
+.CV-timeline-heading-location {
+  font-size: 0.9em;
+  color: white
+}
+
+.CV-timeline-heading-duration {
+  display: block;
+  font-size: 0.8em;
+  padding-top:.5em;
+  color: #6f6f6f;
+}
+
+.CV-timeline-heading-name {
+  display: block;
+  font-size: 1em;
+  padding-top:.5em;
+  color: #00aef0;
+}
+
+.CV-timeline-details {
+  display: block;
+  margin: 0;
+  padding-bottom: 2em;
+  padding: 0 0 2em 1em;
+  list-style-type: circle;
+}
+
+.CV-timeline-details-item {
+  margin-bottom: 0.5em;
+  font-family: RaleWay, sans-serif;
+  color: white;
+}
+
+.CV-job-timeline-item {
+  padding-bottom: 1em;
+}
+
+.CV-job-timeline-item::marker {
+  color: white;
 }

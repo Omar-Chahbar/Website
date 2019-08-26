@@ -19,6 +19,23 @@
   margin: 0;
 }
 
+.success-message {
+  border-radius: 9px;
+  background-color: #1E242C;
+  padding: 10px;
+  font-size: 16pt;
+  font-weight: bold;
+  width: 50vw;
+  font-family: "RaleWay", "sans-serif";
+  margin: 100px auto auto;
+  margin-bottom: -130px;
+  height:150px;
+  p {
+    line-height: 150px;
+    color: white;
+  }
+}
+
 .form-control:focus {
   color: white;
   background-color: #1E242C;

@@ -184,15 +184,24 @@ img {
 
   .project-label {
     color: #64ffda;
-    font-family: monospace;
+    font-family: "RaleWay", "sans-serif";
     font-size: 1.3em;
   }
+
   .project-title {
     font-size: 2rem;
     margin: 10px 0 30px;
     color: #eee;
+    font-family: "RaleWay", "sans-serif";
   }
+
+  .languages {
+    font-family: "RaleWay", "sans-serif";
+
+  }
+
   .project-details {
+
     font-size: 15px;
     line-height: 1.5;
     color: #aaa;

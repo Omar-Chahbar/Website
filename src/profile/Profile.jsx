@@ -32,7 +32,7 @@ const Profile = () => (
             </div>
         </Fade>
 
-        <Fade right>
+        <Fade bottom delay={800}>
             <div className="frame1"/>
             <div className="frame2"/>
             <div className="picture"/>
