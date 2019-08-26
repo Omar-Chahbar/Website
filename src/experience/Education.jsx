@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faChevronRight, faLink, faMapMarkerAlt} from "@fortawesome/fontawesome-free-solid";
+import {faLink, faMapMarkerAlt} from "@fortawesome/fontawesome-free-solid";
 import './Education.scss'
 import {Fade} from "react-reveal";
 

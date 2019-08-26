@@ -2,8 +2,6 @@ import React from 'react';
 import './LandingPage.scss';
 import Arrows from "./Arrows";
 import Fade from 'react-reveal/Fade';
-import TypeWriter from 'react-typewriter';
-import Typist from 'react-typist';
 
 const LandingPage = () => (
     <div className="jumbotron jumbotron-fluid landingPage">
