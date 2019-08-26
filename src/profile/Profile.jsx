@@ -18,16 +18,16 @@ const Profile = () => (
                     looking for employment opportunities upon graduation.</h3>
                 <h3>Here's a few technologies I've been working with recently:</h3>
                 <ul className="list-group-flush row">
-                    <li className="list-group-item col-md-6">Java</li>
-                    <li className="list-group-item col-md-6">Docker & Kubernetes</li>
-                    <li className="list-group-item col-md-6">Python</li>
-                    <li className="list-group-item col-md-6">JavaScript (ES6+)</li>
-                    <li className="list-group-item col-md-6">Spring Framework</li>
-                    <li className="list-group-item col-md-6">React</li>
-                    <li className="list-group-item col-md-6">Bootstrap</li>
-                    <li className="list-group-item col-md-6">Maven</li>
-                    <li className="list-group-item col-md-6">MySQL</li>
-                    <li className="list-group-item col-md-6">Git</li>
+                    <li className="list-group-item col-md-6 col-6">Java</li>
+                    <li className="list-group-item col-md-6 col-6">Docker & Kubernetes</li>
+                    <li className="list-group-item col-md-6 col-6">Python</li>
+                    <li className="list-group-item col-md-6 col-6">JavaScript (ES6+)</li>
+                    <li className="list-group-item col-md-6 col-6">Spring Framework</li>
+                    <li className="list-group-item col-md-6 col-6">React</li>
+                    <li className="list-group-item col-md-6 col-6">Bootstrap</li>
+                    <li className="list-group-item col-md-6 col-6">Maven</li>
+                    <li className="list-group-item col-md-6 col-6">MySQL</li>
+                    <li className="list-group-item col-md-6 col-6">Git</li>
                 </ul>
             </div>
         </Fade>
