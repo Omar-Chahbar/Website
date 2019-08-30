@@ -12,11 +12,11 @@ const LandingPage = () => (
                     <h1 className="bigText">Hi, Esraa</h1>
                 </Fade>
                 <Fade left delay={1000}>
-                    <h2 className="subTitle">You're the best</h2>
+                    <h2 className="subTitle">{"You're the best <3"}</h2>
                 </Fade>
             </center>
         </div>
-        <Arrows/>
+        {/*<Arrows/>*/}
     </div>
 );
 
