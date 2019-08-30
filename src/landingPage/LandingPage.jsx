@@ -9,10 +9,10 @@ const LandingPage = () => (
         <div className="container">
             <center>
                 <Fade left>
-                    <h1 className="bigText">Hi, my name is <span className="emphasis">OMAR CHAHBAR</span></h1>
+                    <h1 className="bigText">Hi, Esraa</h1>
                 </Fade>
                 <Fade left delay={1000}>
-                    <h2 className="subTitle">I'm a Full Stack Software Engineer.</h2>
+                    <h2 className="subTitle">You're the best</h2>
                 </Fade>
             </center>
         </div>
