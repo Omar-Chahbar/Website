@@ -8,12 +8,13 @@
 
 .profile-container {
     margin-left: 6.5vw;
-    width: 50vw;
+    width: 100%;
     margin-right: 0;
-    //for small
-    //width: fit-content;
-    //margin-right: 6.5vw;
     text-align: left;
+
+    @media screen and (max-width: 1000px) {
+        margin-right: 6.5vw;
+    }
 }
 
 .row {
@@ -26,6 +27,14 @@
     font-size: 1.5vw;
     font-weight: normal;
     font-family: "RaleWay", sans-serif;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 2.5vw;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 3.5vw;
+    }
 }
 .list-group-item {
     padding-top: .25em;
@@ -36,6 +45,14 @@ li {
     font-weight: normal;
     font-family: "RaleWay", sans-serif;
     background-color: transparent !important;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 2.5vw !important;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 3.5vw !important;
+    }
 }
 
 h3 {
@@ -47,7 +64,7 @@ h3 {
 
 .frame1 {
     position: absolute;
-    margin-top: 20vh;
+    margin-top: 10vh;
     right: 12.5vw;
     height: 23vw;
     width: 23vw;
@@ -58,8 +75,8 @@ h3 {
 
 .frame2 {
     position: absolute;
-    margin-top: calc(20vh + 20px);
-    right: calc(12.5vw - 20px);
+    margin-top: calc(10vh + 1vw);
+    right: calc(12.5vw - 1vw);
     height: 23vw;
     width: 23vw;
     border: antiquewhite 1px solid;
@@ -76,13 +93,11 @@ h3 {
 
 .picture {
     position: absolute;
-    margin-top: calc(20vh + 20px);
+    margin-top: calc(10vh + 1vw);
     right: 12.5vw;
-    height: calc(23vw - 20px);
-    width: calc(23vw - 20px);
-    //border: antiquewhite 3px solid;
+    height: calc(23vw - 1vw);
+    width: calc(23vw - 1vw);
     background-color: #04C2C9;
-    //border-radius: 3px;
 }
 
 .title {
