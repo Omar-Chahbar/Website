@@ -35,7 +35,6 @@ li {
 }
 
 .experience-container {
-  position: absolute;
   top:10vh;
   max-width: 96vw;
 }
@@ -49,7 +48,6 @@ li {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  position: relative;
 }
 
 a {
@@ -60,9 +58,6 @@ a {
 a:hover {
   color: black;
 }
-
-@import url("https://fonts.googleapis.com/css?family=Lato:400,300,100,100italic,300italic,400italic,700,700italic|Roboto+Slab:400,100,300,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
 .svg-inline--fa.fa-w-12 {
   width: 1em;
