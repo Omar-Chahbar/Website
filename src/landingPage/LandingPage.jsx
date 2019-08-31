@@ -16,7 +16,9 @@ const LandingPage = () => (
                 </Fade>
             </center>
         </div>
-        <Arrows/>
+        <Fade delay={1300}>
+            <Arrows/>
+        </Fade>
     </div>
 );
 

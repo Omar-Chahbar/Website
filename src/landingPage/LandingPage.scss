@@ -16,11 +16,19 @@
     font-size: 4.3vw;
     font-family: "RaleWay", "sans-serif";
     font-weight: 900;
+
+    @media screen and (max-width: 500px) {
+        font-size: 6vw;
+    }
 }
 
 .subTitle {
     font-size: 3.5vw;
     font-family: "RaleWay", "sans-serif";
+
+    @media screen and (max-width: 500px) {
+        font-size: 5vw;
+    }
 }
 
 .Cursor {

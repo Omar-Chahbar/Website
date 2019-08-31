@@ -11,8 +11,8 @@ function App() {
     return (
         <div className="App">
             <LandingPage/>
-            {/*<Profile/>*/}
-            {/*<Experience/>*/}
+            <Profile/>
+            <Experience/>
             {/*<Project/>*/}
             {/*<Contact />*/}
             {/*<Footer />*/}
