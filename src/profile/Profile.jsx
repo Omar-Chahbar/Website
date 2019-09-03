@@ -2,6 +2,9 @@ import React from 'react';
 import './Profile.scss';
 import Fade from 'react-reveal/Fade';
 
+
+const longDelay = 750;
+const shortDelay = 350;
 const Profile = () => (
     <div id="profile" className="jumbotron jumbotron-fluid profile">
         <Fade left>
@@ -22,23 +25,45 @@ const Profile = () => (
                             looking for employment opportunities upon graduation.</h3>
                         <h3>Here's a few technologies I've been working with recently:</h3>
                         <ul className="list-group-flush row">
-                            <li className="list-group-item col-md-6 col-6">Java</li>
-                            <li className="list-group-item col-md-6 col-6">Docker</li>
-                            <li className="list-group-item col-md-6 col-6">Kubernetes</li>
-                            <li className="list-group-item col-md-6 col-6">Python</li>
-                            <li className="list-group-item col-md-6 col-6">JavaScript (ES6+)</li>
-                            <li className="list-group-item col-md-6 col-6">Spring Framework</li>
-                            <li className="list-group-item col-md-6 col-6">React</li>
-                            <li className="list-group-item col-md-6 col-6">Bootstrap</li>
-                            <li className="list-group-item col-md-6 col-6">Maven</li>
-                            <li className="list-group-item col-md-6 col-6">MySQL</li>
-                            <li className="list-group-item col-md-6 col-6">Git</li>
+                            <Fade left delay={shortDelay}>
+                                <li className="list-group-item col-6">Java</li>
+                            </Fade>
+                            <Fade left delay={longDelay}>
+                                <li className="list-group-item col-6">Docker</li>
+                            </Fade>
+                            <Fade left delay={shortDelay}>
+                                <li className="list-group-item col-6">Kubernetes</li>
+                            </Fade>
+                            <Fade left delay={longDelay}>
+                                <li className="list-group-item col-6">Python</li>
+                            </Fade>
+                            <Fade left delay={shortDelay}>
+                                <li className="list-group-item col-6">JavaScript (ES6+)</li>
+                            </Fade>
+                            <Fade left delay={longDelay}>
+                                <li className="list-group-item col-6">Spring Framework</li>
+                            </Fade>
+                            <Fade left delay={shortDelay}>
+                                <li className="list-group-item col-6">React</li>
+                            </Fade>
+                            <Fade left delay={longDelay}>
+                                <li className="list-group-item col-6">Bootstrap</li>
+                            </Fade>
+                            <Fade left delay={shortDelay}>
+                                <li className="list-group-item col-6">Maven</li>
+                            </Fade>
+                            <Fade left delay={longDelay}>
+                                <li className="list-group-item col-6">MySQL</li>
+                            </Fade>
+                            <Fade left delay={shortDelay}>
+                                <li className="list-group-item col-6">Git</li>
+                            </Fade>
                         </ul>
                     </div>
                 </Fade>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 picture-div">
                 <Fade bottom delay={800}>
                     <div className="frame1"/>
                     <div className="frame2"/>

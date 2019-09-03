@@ -16,7 +16,7 @@ const Experience = () => (
                 </div>
                 <div className="col-lg-6 no-gutters">
                     <Fade right>
-                        <h2 className="exp-title">EXPERIENCE</h2>
+                        <h2 className="exp-title career-info">EXPERIENCE</h2>
                     </Fade>
                     <Career/>
                 </div>

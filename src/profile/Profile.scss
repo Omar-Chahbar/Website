@@ -2,7 +2,6 @@
 
 .profile {
     background-color: rgb(10, 25, 47);
-    padding-bottom: 0;
     text-align: center;
 }
 
@@ -13,7 +12,7 @@
     text-align: left;
 
     @media screen and (max-width: 1000px) {
-        margin-right: 6.5vw;
+        margin-left: 0;
     }
 }
 
@@ -33,13 +32,29 @@
     }
 
     @media screen and (max-width: 600px) {
-        font-size: 3.5vw;
+        font-size: 16px;
     }
 }
 .list-group-item {
     padding-top: .25em;
+    font-weight: bold;
     padding-bottom: .25em;
+    border: 0;
 }
+
+.list-group-item:before {
+    content: "▹";
+    position: absolute;
+    left: -0.1em;
+    color: rgb(100, 255, 218);
+    font-size: smaller;
+}
+
+ul {
+    padding-left:1em !important;
+    margin-left:1em;
+}
+
 li {
     font-size: 1.5vw;
     font-weight: normal;
@@ -60,28 +75,106 @@ h3 {
     font-size: 1.5vw;
     font-weight: normal;
     font-family: "RaleWay", sans-serif;
+
+    @media screen and (max-width: 1000px) {
+        font-size: 2.5vw;
+    }
+
+    @media screen and (max-width: 600px) {
+        @media screen and (max-width: 600px) {
+            font-size: 16px;
+        }
+    }
 }
 
 .frame1 {
     position: absolute;
-    margin-top: 10vh;
-    right: 12.5vw;
+    margin-left: calc(50% - 11vw - 15px);
     height: 23vw;
     width: 23vw;
-    border: antiquewhite 1px solid;
+    border: rgb(100, 255, 218) 1px solid;
     background-color: transparent;
     border-radius: 3px;
+
+    @media screen and (max-width: 750px) {
+        height: 38vw;
+        width: 38vw;
+        margin-left: calc(50% - 18.5vw - 15px);
+    }
+
+    @media screen and (max-width: 550px) {
+        height: 57vw;
+        width: 57vw;
+        margin-left: calc(50% - 28vw - 15px);
+    }
+
+    @media screen and (max-width: 450px) {
+        height: 27vh;
+        width: 27vh;
+        margin-left: calc(50% - 13vh - 15px);
+    }
 }
 
 .frame2 {
     position: absolute;
-    margin-top: calc(10vh + 1vw);
-    right: calc(12.5vw - 1vw);
+    margin-top: -1vw;
+    margin-left: calc(50% - 12vw - 15px);
     height: 23vw;
     width: 23vw;
-    border: antiquewhite 1px solid;
+    border: rgb(100, 255, 218) 1px solid;
     background-color: transparent;
     border-radius: 3px;
+
+    @media screen and (max-width: 750px) {
+        height: 38vw;
+        width: 38vw;
+        margin-left: calc(50% - 19.5vw - 15px);
+    }
+
+    @media screen and (max-width: 550px) {
+        height: 57vw;
+        width: 57vw;
+        margin-left: calc(50% - 29vw - 15px);
+    }
+
+    @media screen and (max-width: 450px) {
+        margin-top: -1vh;
+        height: 27vh;
+        width: 27vh;
+        margin-left: calc(50% - 14vh - 15px);
+    }
+}
+
+.picture {
+    position: absolute;
+    margin-left: calc(50% - 11vw - 15px);
+    height: calc(23vw - 1vw);
+    width: calc(23vw - 1vw);
+    background-color: #04C2C9;
+
+    @media screen and (max-width: 750px) {
+        height: calc(38vw - 1vw);
+        width: calc(38vw - 1vw);
+        margin-left: calc(50% - 18.5vw - 15px);
+    }
+
+    @media screen and (max-width: 550px) {
+        height: calc(57vw - 1vw);
+        width: calc(57vw - 1vw);
+        margin-left: calc(50% - 28vw - 15px);
+    }
+
+    @media screen and (max-width: 450px) {
+        height: calc(27vh - 1vh);
+        width: calc(27vh - 1vh);
+        margin-left: calc(50% - 13vh - 15px);
+    }
+}
+
+.picture-div {
+    @media screen and (max-width: 1000px) {
+        margin-top: 5vh;
+    }
 }
 
 .underline {
@@ -89,19 +182,21 @@ h3 {
     width: 3.5em;
     margin: -5vh auto auto;
     margin-bottom: 8vh;
+
+    @media screen and (max-width: 1000px) {
+        margin-bottom: 4vh;
+    }
 }
 
-.picture {
-    position: absolute;
-    margin-top: calc(10vh + 1vw);
-    right: 12.5vw;
-    height: calc(23vw - 1vw);
-    width: calc(23vw - 1vw);
-    background-color: #04C2C9;
-}
 
 .title {
-    font-size: 3vw;
+    font-size: calc(12px + 3vw);
     padding-bottom: 5vh;
     font-family: "RaleWay", sans-serif;
+
+    @media screen and (min-width: 1100px) {
+        font-size: 3vw;
+    }
 }
+
+

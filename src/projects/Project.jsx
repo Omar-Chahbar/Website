@@ -25,9 +25,9 @@ const projects = [
     },
     {
         label: "Featured Project",
-        title: "Cron Tab Calculator",
-        details: "An API that accepts information on how often you want a process to run and gives you a syntactically correct Crontab to run that task",
-        languages: ["Java", "Spring", "Jackson"],
+        title: "This website!",
+        details: "I designed and built this website to showcase some of my work and tell you a little bit about myself. I'm using AWS Amplify and AWS Route53 to deploy it, and AWS Pinpoint for monitoring and analytics",
+        languages: ["React", "Bootstrap", "AWS"],
         link: "https://github.com/Omar-Chahbar/cron-calculator",
         className: "project-img sudoku",
     },

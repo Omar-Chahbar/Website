@@ -13,7 +13,7 @@ function App() {
             <LandingPage/>
             <Profile/>
             <Experience/>
-            {/*<Project/>*/}
+            <Project/>
             {/*<Contact />*/}
             {/*<Footer />*/}
         </div>
