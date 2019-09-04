@@ -4,6 +4,14 @@
   padding-bottom: 5vh;
   width: 40vw;
   display: inline-block;
+
+  @media screen and (max-width: 700px) {
+    width: 65vw;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 55vw;
+  }
 }
 
 .field {
@@ -13,6 +21,14 @@
   border: none;
   color: white;
   width: 40vw;
+
+  @media screen and (max-width: 800px) {
+    width: 65vw;
+  }
+
+  @media screen and (max-width: 1000px) {
+    width: 55vw;
+  }
 }
 
 .row {
