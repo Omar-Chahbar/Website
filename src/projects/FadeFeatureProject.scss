@@ -17,6 +17,10 @@ html {
 
 .fa-github {
   font-size: 18pt;
+
+  @media screen and (max-width:600px) {
+  font-size: 24pt;
+  }
 }
 
 *,
@@ -110,6 +114,7 @@ img {
 .project-content {
   position: relative;
   grid-column: 2 / 7;
+  z-index: 1;
   grid-row: 1 / -1;
 
   @include tablet {
@@ -132,7 +137,9 @@ img {
 
   .languages {
     font-family: "RaleWay", "sans-serif";
-
+    @media screen and (max-width:600px){
+      font-size: 16pt;
+    }
   }
 
   .project-details {
@@ -160,6 +167,11 @@ img {
     ul {
       display: flex;
       margin-top: 15px;
+      z-index: 1;
+
+      @media screen and (max-width: 600px){
+        display: block;
+      }
 
       li {
         margin-right: 20px;
@@ -231,6 +243,10 @@ img {
       float: right;
       z-index: 1;
       flex-wrap: wrap;
+
+      @media screen and (max-width: 600px){
+        display: block;
+      }
 
       li {
         margin-left: 20px;
