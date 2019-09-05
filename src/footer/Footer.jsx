@@ -8,12 +8,12 @@ const Footer = () => (
         <div className="iconList">
             <a href="https://github.com/Omar-Chahbar">
                 <div className="footerIconFrame">
-                    <FontAwesomeIcon icon={faGithub} className="footerIcon"/>
+                    <FontAwesomeIcon icon={faGithub} className="githubIcon"/>
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/ochahbar/">
                 <div className="footerIconFrame">
-                    <FontAwesomeIcon icon={faLinkedin} className="footerIcon"/>
+                    <FontAwesomeIcon icon={faLinkedin} className="linkedInIcon"/>
                 </div>
             </a>
         </div>

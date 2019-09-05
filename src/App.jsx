@@ -10,12 +10,12 @@ import Footer from "./footer/Footer";
 function App() {
     return (
         <div className="App">
-            <LandingPage/>
-            <Profile/>
-            <Experience/>
-            <Project/>
+            <LandingPage />
+            <Profile />
+            <Experience />
+            <Project />
             <Contact />
-            {/*<Footer />*/}
+            <Footer />
         </div>
     );
 }
