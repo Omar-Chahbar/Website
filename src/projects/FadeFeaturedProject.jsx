@@ -19,7 +19,7 @@ const FadeFeaturedProject = ({project, count}) => {
                             </Fade>
                             <ul>
                                 {project.languages.map((lang => <li className="languages">{lang}</li>))}
-                                <li><a href={project.link}><FontAwesomeIcon icon={faGithub}/></a></li>
+                                {project.link && <li><a href={project.link}><FontAwesomeIcon icon={faGithub}/></a></li>}
                             </ul>
 
                         </div>
@@ -44,7 +44,7 @@ const FadeFeaturedProject = ({project, count}) => {
                                 <p>{project.details}</p>
                             </Fade>
                             <ul>
-                                <li><a href={project.link}><FontAwesomeIcon icon={faGithub}/></a></li>
+                                {project.link && <li><a href={project.link}><FontAwesomeIcon icon={faGithub}/></a></li>}
                                 {project.languages.map((lang => <li>{lang}</li>))}
                             </ul>
                         </div>
