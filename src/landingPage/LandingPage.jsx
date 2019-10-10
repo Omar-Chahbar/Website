@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.scss';
-import Arrows from "./Arrows";
+import Arrows from "../Arrows/Arrows";
 import Fade from 'react-reveal/Fade';
 
 const LandingPage = () => (
@@ -16,7 +16,7 @@ const LandingPage = () => (
                 </Fade>
             </center>
         </div>
-        <Arrows/>
+        <Arrows link="#profile" classValue="icon bounce"/>
     </div>
 );
 

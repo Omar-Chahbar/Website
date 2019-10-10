@@ -16,23 +16,18 @@ const Career = () => (
                                 icon={faMapMarkerAlt}/> London, Ontario</small></h3>
                         <ul className="CV-timeline-details">
                             <Fade bottom>
-                                <li className="CV-job-timeline-item">Lorem Ipsum whatever whateer filler text
+                                <li className="CV-job-timeline-item">Worked on new features and modifications for a complex web application built with Java Spring and Apache Solr.
+                                    This application is used by General Motors to create and manage it's Vehicle Incentives and comes with a suite of Web Services used to query this data
                                 </li>
                             </Fade>
                             <Fade bottom delay={500}>
-                                <li className="CV-job-timeline-item">Filler textFiller textFiller textFiller textFiller textFiller textFiller textFiller text
-                                </li>
-                            </Fade>
-                            <Fade bottom delay={1000}>
-                                <li className="CV-job-timeline-item">Why are you still reading this? Filler textFiller textFiller textFiller textFiller text
-                                </li>
-                            </Fade>
-                            <Fade bottom delay={1500}>
-                                <li className="CV-job-timeline-item">Stop! Filler textFiller textFiller textFiller textFiller textFiller textFiller textFiller text
+                                <li className="CV-job-timeline-item">Fully Designed and implemented an internal tool to manage resourcing
+                                    needs across the company using ReactJS and Spring Boot, created automated pipelines, docker containers,
+                                    and deployed to a kubernetes cluster. The tool is currently in use by upper management to manage over 500 employees.
                                 </li>
                             </Fade>
                         </ul>
-                        <Fade delay={2000}>
+                        <Fade delay={1000}>
                             <a href="https://www.autodatasolutions.com/"><FontAwesomeIcon icon={faLink}/><span className="link">www.autodatasolutions.com</span></a>
                         </Fade>
                     </section>

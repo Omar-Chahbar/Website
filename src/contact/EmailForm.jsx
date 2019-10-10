@@ -93,7 +93,7 @@ class EmailForm extends React.Component {
                 {this.state.successVisible && (
                     <Fade duration={1500}>
                         <div className="success-message">
-                            <p>Message Sent! I'll get back to you as soon as possible!</p>
+                            Message Sent! I'll get back to you as soon as possible!
                         </div>
                     </Fade>
                 )}

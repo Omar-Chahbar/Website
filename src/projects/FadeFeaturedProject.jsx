@@ -63,7 +63,7 @@ FadeFeaturedProject.propTypes = {
         label: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
         details: PropTypes.string.isRequired,
-        languages: PropTypes.string.isRequired,
+        languages: PropTypes.arrayOf(PropTypes.string).isRequired,
         link: PropTypes.string.isRequired,
     }),
     count: PropTypes.number.isRequired,

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Profile.scss';
 import Fade from 'react-reveal/Fade';
+import Arrows from "../Arrows/Arrows";
 
 
 const longDelay = 750;
@@ -71,6 +72,7 @@ const Profile = () => (
                 </Fade>
             </div>
         </div>
+        {/*<Arrows link="#experience" classValue="icon"/>*/}
     </div>
 );
 
