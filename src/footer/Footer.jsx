@@ -18,6 +18,7 @@ const Footer = () => (
             </a>
         </div>
         <div className="bottomText">
+            <p>chahbar.omar@gmail.com</p>
             OMAR CHAHBAR © 2019
         </div>
     </div>

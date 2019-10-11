@@ -89,27 +89,27 @@ h3 {
 
 .frame1 {
     position: absolute;
-    margin-left: calc(50% - 11vw - 15px);
-    height: 23vw;
-    width: 23vw;
+    margin-left: calc(50% - 12.5vw - 15px);
+    height: 32vw;
+    width: 24.65vw;
     border: rgb(100, 255, 218) 1px solid;
     background-color: transparent;
     border-radius: 3px;
 
     @media screen and (max-width: 750px) {
-        height: 38vw;
+        height: 49.331vw;
         width: 38vw;
         margin-left: calc(50% - 18.5vw - 15px);
     }
 
     @media screen and (max-width: 550px) {
-        height: 57vw;
+        height: 74vw;
         width: 57vw;
         margin-left: calc(50% - 28vw - 15px);
     }
 
     @media screen and (max-width: 450px) {
-        height: 27vh;
+        height: 35.051vh;
         width: 27vh;
         margin-left: calc(50% - 13vh - 15px);
     }
@@ -118,28 +118,28 @@ h3 {
 .frame2 {
     position: absolute;
     margin-top: -1vw;
-    margin-left: calc(50% - 12vw - 15px);
-    height: 23vw;
-    width: 23vw;
+    margin-left: calc(50% - 13.5vw - 15px);
+    height: 32vw;
+    width: 24.65vw;
     border: rgb(100, 255, 218) 1px solid;
     background-color: transparent;
     border-radius: 3px;
 
     @media screen and (max-width: 750px) {
-        height: 38vw;
+        height: 49.331vw;
         width: 38vw;
         margin-left: calc(50% - 19.5vw - 15px);
     }
 
     @media screen and (max-width: 550px) {
-        height: 57vw;
+        height: 74vw;
         width: 57vw;
         margin-left: calc(50% - 29vw - 15px);
     }
 
     @media screen and (max-width: 450px) {
         margin-top: -1vh;
-        height: 27vh;
+        height: 35.051vh;
         width: 27vh;
         margin-left: calc(50% - 14vh - 15px);
     }
@@ -147,25 +147,26 @@ h3 {
 
 .picture {
     position: absolute;
-    margin-left: calc(50% - 11vw - 15px);
-    height: calc(23vw - 1vw);
-    width: calc(23vw - 1vw);
-    background-color: #04C2C9;
+    margin-left: calc(50% - 12.5vw - 15px);
+    height: calc(32vw - 1vw);
+    width: calc(24.65vw - 1vw);
+    background-image: url("me_sitting.jpg");
+    background-size: 100% 100%;
 
     @media screen and (max-width: 750px) {
-        height: calc(38vw - 1vw);
+        height: calc(49.331vw - 1vw);
         width: calc(38vw - 1vw);
         margin-left: calc(50% - 18.5vw - 15px);
     }
 
     @media screen and (max-width: 550px) {
-        height: calc(57vw - 1vw);
+        height: calc(74vw - 1vw);
         width: calc(57vw - 1vw);
         margin-left: calc(50% - 28vw - 15px);
     }
 
     @media screen and (max-width: 450px) {
-        height: calc(27vh - 1vh);
+        height: calc(35.051vh - 1vh);
         width: calc(27vh - 1vh);
         margin-left: calc(50% - 13vh - 15px);
     }

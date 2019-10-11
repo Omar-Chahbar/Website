@@ -65,7 +65,7 @@ const Profile = () => (
             </div>
 
             <div className="col-lg-6 picture-div">
-                <Fade bottom delay={800}>
+                <Fade delay={1300}>
                     <div className="frame1"/>
                     <div className="frame2"/>
                     <div className="picture"/>
