@@ -70,7 +70,6 @@ const Profile = () => (
                 </Fade>
             </div>
         </div>
-        {/*<Arrows link="#experience" classValue="icon"/>*/}
     </div>
 );
 

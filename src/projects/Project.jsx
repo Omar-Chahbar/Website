@@ -1,5 +1,4 @@
 import React from 'react';
-import './Project.scss';
 import FeaturedProjects from "./FeaturedProjects";
 
 const Project = () => (
