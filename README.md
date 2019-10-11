@@ -1,1 +1,1 @@
-An application I built using ReactJS to showcase some of my skills and experience.
+An application I built using ReactJS to showcase some of my skills and experience. Run with `npm start`
