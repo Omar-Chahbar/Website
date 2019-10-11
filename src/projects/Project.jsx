@@ -9,7 +9,7 @@ const Project = () => (
 const projects = [
     {
         label: "Featured Project",
-        title: "Marcotte Physiotherapy",
+        title: "Marcotte Physio",
         details: "This is an application I designed and built for a physiotherapy clinic during my third year at Western University. The website brings the benefits of going to a physiotherapist to the comfort of one's home by providing features like a login system, video conferencing, online tests that the patient can take, and an exercise player.",
         languages: ["MongoDB", "Node", "Express", "EmberJS"],
         className: "project-img marcotte",
