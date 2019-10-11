@@ -264,12 +264,23 @@ img {
 
 .marcotte {
   background-image: url("marcotte.jpg");
-  background-size: 100% 100%;
+  @media screen and (min-width: 1000px){
+    background-size: 100% 100%;
+  }
+  @media screen and (max-width: 1000px){
+    background-position: -450px -100px;
+  }
 }
 
 .website {
   background-image: url("website.png");
-  background-size: 100% 100%;
+  @media screen and (min-width: 1000px){
+    background-size: 100% 100%;
+  }
+
+  @media screen and (max-width: 1000px){
+    background-position: -330px 100px;
+  }
 }
 
 .project-img {

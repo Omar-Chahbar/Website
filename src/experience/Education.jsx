@@ -19,20 +19,24 @@ const Education = () => (
                                     Internship, Software Engineering
                                 </li>
                             </Fade>
-                            <Fade bottom delay={750}>
+                            <Fade bottom delay={500}>
                                 <li className="CV-job-timeline-item">Graduating April 2020
                                 </li>
                             </Fade>
-                            <Fade bottom delay={1250}>
+                            <Fade bottom delay={750}>
                                 <li className="CV-job-timeline-item">3.9 GPA
                                 </li>
                             </Fade>
-                            <Fade bottom delay={1750}>
+                            <Fade bottom delay={1000}>
                                 <li className="CV-job-timeline-item">Scholarship of Excellence recipient
                                 </li>
                             </Fade>
+                            <Fade bottom delay={1250}>
+                                <li className="CV-job-timeline-item">Notable Classes: Software Engineering Design, Algorithms and Data Structures, Operating Systems, Computer Networking, Cloud Computing, Software Requirements and Analysis
+                                </li>
+                            </Fade>
                         </ul>
-                        <Fade delay={2250}>
+                        <Fade delay={1500}>
                         <a href="https://www.uwo.ca/"><FontAwesomeIcon icon={faLink}/><span className="link">www.uwo.ca</span></a>
                         </Fade>
                     </section>
