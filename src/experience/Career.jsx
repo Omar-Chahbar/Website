@@ -17,7 +17,7 @@ const Career = () => (
                         <ul className="CV-timeline-details">
                             <Fade bottom>
                                 <li className="CV-job-timeline-item">Worked on new features and modifications for a complex web application built with Java Spring and Apache Solr.
-                                    This application is used by General Motors to create and manage it's Vehicle Incentives and comes with a suite of Web Services used to query this data
+                                    This application is used by General Motors to create and manage its Vehicle Incentives and comes with a suite of Web Services used to query this data
                                 </li>
                             </Fade>
                             <Fade bottom delay={500}>
