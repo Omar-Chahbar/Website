@@ -24,7 +24,7 @@ const Education = () => (
                                 </li>
                             </Fade>
                             <Fade bottom delay={750}>
-                                <li className="CV-job-timeline-item">3.9 GPA
+                                <li className="CV-job-timeline-item">3.8 GPA
                                 </li>
                             </Fade>
                             <Fade bottom delay={1000}>
